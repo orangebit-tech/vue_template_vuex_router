@@ -1,4 +1,6 @@
-# car_tracker
+# Vue Template Vuex Router Theme
+
+Fresh vue app template with store installed, router set up and theme customized.
 
 ## Project setup
 ```
