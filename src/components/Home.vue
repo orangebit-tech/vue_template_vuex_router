@@ -10,7 +10,7 @@
                 </div>
                 <div class="title">
                 <div class="inner-title">
-                    <h1>Car Tracker</h1>
+                    <h1>App Name</h1>
                 </div>
                 </div>
             </div>
@@ -45,8 +45,8 @@ export default {
                 url: '/home/dashboard'
                 },
                 {
-                name: 'Map',
-                url: '/home/map'
+                name: 'Team',
+                url: '/home/team'
                 },
                 {
                 name: 'Settings',

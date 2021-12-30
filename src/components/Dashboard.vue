@@ -1,9 +1,9 @@
 <template>
     <div class="display-block">
         <div class="widget">
-            <h2 style="margin-top: 0px;">Cars</h2>
+            <h2 style="margin-top: 0px;">Issues</h2>
             <div>
-                <div class="item" v-for="(car, index) in cars" :key="index">
+                <!-- <div class="item" v-for="(car, index) in cars" :key="index">
                     <div style="width: 160px;vertical-align: top; padding-top: 0px; margin-bottom: 10px;" class="">
                         <span style="font-size: 24px; color: #c4c6c8">{{car.make}} {{car.model}}</span>
                     </div>
@@ -28,7 +28,7 @@
                     <div style="display: inline-block; width: 0px;vertical-align: top; width: 110px;" class="inner-block;">
                         <label>Check </label> <span style="margin-left: 20px;"> <div :class="{'pass': car.check == 'pass', 'fail': car.check == 'fail'}" class="dot"></div></span>
                     </div>
-                </div>
+                </div> -->
             </div>
         </div>
     </div>
@@ -39,38 +39,38 @@ export default {
     name: 'Settings',
     data(){
         return {
-            cars: [
-                {
-                    make: 'Nissan',
-                    model: 'Sentra',
-                    year: '2015',
-                    img: 'https://d1zgdcrdir5wgt.cloudfront.net/media/vehicle/images/jahCTReORbOj9Rpi3ET45g.1440x700.jpg',
-                    miles: '126197',
-                    rev: '461',
-                    fuel: '80%',
-                    check: 'fail'
-                },
-                {
-                    make: 'Toyota',
-                    model: 'Camry',
-                    year: '2018',
-                    img: 'https://d1zgdcrdir5wgt.cloudfront.net/media/vehicle/images/HlpC545WQqKwrXGM4bU64g.1440x700.jpg',
-                    miles: '22511',
-                    rev: '674',
-                    fuel: '100%',
-                    check: 'pass'
-                },
-                {
-                    make: 'BMW',
-                    model: 'X1',
-                    year: '2018',
-                    img: 'https://d1zgdcrdir5wgt.cloudfront.net/media/vehicle/images/3I5SAmZESdGhWBmuszBSUA.1440x700.jpg',
-                    miles: '18467',
-                    rev: '851',
-                    fuel: '100%',
-                    check: 'pass'
-                },
-            ]
+            // cars: [
+            //     {
+            //         make: 'Nissan',
+            //         model: 'Sentra',
+            //         year: '2015',
+            //         img: 'https://d1zgdcrdir5wgt.cloudfront.net/media/vehicle/images/jahCTReORbOj9Rpi3ET45g.1440x700.jpg',
+            //         miles: '126197',
+            //         rev: '461',
+            //         fuel: '80%',
+            //         check: 'fail'
+            //     },
+            //     {
+            //         make: 'Toyota',
+            //         model: 'Camry',
+            //         year: '2018',
+            //         img: 'https://d1zgdcrdir5wgt.cloudfront.net/media/vehicle/images/HlpC545WQqKwrXGM4bU64g.1440x700.jpg',
+            //         miles: '22511',
+            //         rev: '674',
+            //         fuel: '100%',
+            //         check: 'pass'
+            //     },
+            //     {
+            //         make: 'BMW',
+            //         model: 'X1',
+            //         year: '2018',
+            //         img: 'https://d1zgdcrdir5wgt.cloudfront.net/media/vehicle/images/3I5SAmZESdGhWBmuszBSUA.1440x700.jpg',
+            //         miles: '18467',
+            //         rev: '851',
+            //         fuel: '100%',
+            //         check: 'pass'
+            //     },
+            // ]
         }
     }
 }

@@ -4,7 +4,7 @@ import App              from '../App.vue'
 import Home             from '../components/Home'
 import Settings         from '../components/Settings'
 import Dashboard        from '../components/Dashboard'
-import Map              from '../components/Map'
+import Team             from '../components/Team'
 
 export const routes = [
     {
@@ -33,9 +33,9 @@ export const routes = [
                         ]
                     },
                     {
-                        path: "/home/map",
-                        name: "Map",
-                        component: Map,
+                        path: "/home/team",
+                        name: "Team",
+                        component: Team,
                         children: [
                         ]
                     },
